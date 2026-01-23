@@ -1,23 +1,28 @@
 [
   {
-    "id": "g1",
-    "level": "beginner",
-    "title": "زمن المضارع البسيط (Present Simple)",
-    "description": "تعلم كيف تتحدث عن روتينك اليومي والحقائق الثابتة.",
-    "content": "<h2>عنوان الدرس</h2> <div class='video-box'><iframe src='https://www.youtube.com/embed/tgbNymZ7vqY' allowfullscreen></iframe></div>",
-    "quizzes": [
+  "id": 1,
+  "title": "شرح زمن المضارع البسيط - Present Simple",
+  "category": "Grammar",
+  "level": "Beginner",
+  "content": "<h3>ما هو زمن المضارع البسيط؟</h3><p>بنستخدم الزمن ده عشان نتكلم عن <b>الحقائق الثابتة</b> (زي إن الشمس بتطلع من الشرق) أو <b>العادات اليومية</b> (حاجات بتعملها كل يوم).</p><h4>تكوين الجملة:</h4><ul><li>مع الضمائر (I, You, We, They): الفعل بيفضل زي ما هو <i>(مثال: I play)</i>.</li><li>مع الضمائر (He, She, It): لازم نضيف حرف <b>s</b> للفعل <i>(مثال: He plays)</i>.</li></ul><div class='note' style='background: #f0f0f0; padding: 10px; border-right: 5px solid #007bff;'><b>ملحوظة:</b> عند النفي بنستخدم don't مع الجمع، و doesn't مع المفرد (وبنرجع الفعل لأصله).</div>",
+  "quiz": [
     {
-      "question": "He ____ (play) tennis.",
-      "options": ["play", "plays", "playing"],
-      "answer": "plays"
+      "question": "Sara ____ milk every morning.",
+      "options": ["drink", "drinks", "drinking", "drank"],
+      "correct": 1
     },
     {
-      "question": "They ____ (be) students.",
-      "options": ["is", "am", "are"],
-      "answer": "are"
+      "question": "We ____ play football on Mondays.",
+      "options": ["doesn't", "don't", "isn't", "aren't"],
+      "correct": 1
+    },
+    {
+      "question": "Do they ____ English?",
+      "options": ["speaks", "speaking", "speak", "spoke"],
+      "correct": 2
     }
   ]
-  },
+},
   {
     "id": "g1",
     "level": "beginner",
@@ -30,4 +35,5 @@
       "answer": "went"
     }
   }
+
 ]
