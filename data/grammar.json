@@ -1,0 +1,33 @@
+[
+  {
+    "id": "g1",
+    "level": "beginner",
+    "title": "زمن المضارع البسيط (Present Simple)",
+    "description": "تعلم كيف تتحدث عن روتينك اليومي والحقائق الثابتة.",
+    "content": "<h2>عنوان الدرس</h2> <div class='video-box'><iframe src='https://www.youtube.com/embed/tgbNymZ7vqY' allowfullscreen></iframe></div>",
+    "quizzes": [
+    {
+      "question": "He ____ (play) tennis.",
+      "options": ["play", "plays", "playing"],
+      "answer": "plays"
+    },
+    {
+      "question": "They ____ (be) students.",
+      "options": ["is", "am", "are"],
+      "answer": "are"
+    }
+  ]
+  },
+  {
+    "id": "g1",
+    "level": "beginner",
+    "title": "زمن الماضي البسيط (Past Simple)",
+    "description": "تعلم كيف تصف أحداثاً بدأت وانتهت في الماضي.",
+    "content": "<h2>1. الاستخدام</h2> <p>يستخدم للتعبير عن فعل حدث وانتهى في وقت محدد في الماضي.</p> <div class='info-box' style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 20px; margin: 20px 0; border-radius: 10px;'> <h4><i class='fas fa-info-circle'></i> معلومة مهمة:</h4> <p>معظم الأفعال نضيف لها <strong>ed</strong> في النهاية، لكن هناك أفعال شاذة يجب حفظها.</p> </div> <h2>2. أمثلة على الأفعال</h2> <ul> <li><strong>Regular:</strong> Play → Played</li> <li><strong>Irregular:</strong> Go → Went</li> </ul> <p>مثال في جملة: <em>I <strong>went</strong> to the park yesterday.</em></p> <h2>3. الكلمات الدالة (Keywords)</h2> <p style='background:#eee; padding:10px; border-radius:5px;'>Yesterday - Last week - Ago - In 2020</p>",
+    "quiz": {
+      "question": "They _____ to London last summer.",
+      "options": ["go", "goes", "went"],
+      "answer": "went"
+    }
+  }
+]

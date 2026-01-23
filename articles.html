@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كل المقالات والنصائح - English Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        .articles-header {
+            background: linear-gradient(135deg, var(--primary), #0d6360);
+            padding: 100px 20px 60px;
+            text-align: center;
+            color: white;
+            border-radius: 0 0 50px 50px;
+        }
+        .search-bar {
+            max-width: 600px;
+            margin: -30px auto 40px;
+            position: relative;
+            z-index: 10;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 20px 25px;
+            border-radius: 50px;
+            border: none;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            font-size: 1.1rem;
+            outline: none;
+        }
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            padding: 40px 0;
+        }
+        /* التنسيق الجديد للمقالات */
+    .articles-hero {
+        background: linear-gradient(135deg, #0a4d4a 0%, #062c2a 100%);
+        padding: 120px 20px 80px;
+        text-align: center;
+        color: white;
+        position: relative;
+    }
+    
+    .articles-hero::after {
+        content: '';
+        position: absolute;
+        bottom: 0; left: 0; width: 100%; height: 50px;
+        background: white;
+        clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    }
+
+    .article-card {
+        background: white;
+        border-radius: 25px;
+        overflow: hidden;
+        border: 1px solid #f0f0f0;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .article-card:hover {
+        transform: translateY(-12px);
+        box-shadow: 0 20px 40px rgba(10, 77, 74, 0.15);
+        border-color: var(--secondary);
+    }
+
+    .article-img-container {
+        position: relative;
+        height: 220px;
+        overflow: hidden;
+    }
+
+    .article-badge {
+        position: absolute;
+        top: 15px; right: 15px;
+        background: var(--secondary);
+        color: var(--primary);
+        padding: 5px 15px;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+
+    .article-body {
+        padding: 25px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-body h3 {
+        color: var(--primary);
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+
+    .read-more-link {
+        margin-top: auto;
+        color: var(--secondary);
+        text-decoration: none;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: 0.3s;
+    }
+
+    .read-more-link:hover { gap: 15px; }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">English Hub</a>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="articles.html" class="active">المقالات</a>
+        </nav>
+    </header>
+
+    <section class="articles-header">
+        <h1>مدونة English Hub ✍️</h1>
+        <p>اكتشف أفضل النصائح والأدوات لتسريع رحلة تعلمك للغة الإنجليزية</p>
+    </section>
+
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="articleSearch" placeholder="ابحث عن موضوع معين (مثلاً: أفلام، حفظ الكلمات)...">
+        </div>
+
+        <div id="all-articles-container" class="articles-grid">
+            </div>
+    </div>
+
+    <script src="js/articles.js"></script>
+</body>
+</html>

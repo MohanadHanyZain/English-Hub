@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Hub - More English Style</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ===== الهيدر ===== -->
+    <header>
+        <a href="#" class="logo">English Hub</a>
+        
+        <!-- القائمة الرئيسية للشاشات الكبيرة -->
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#paths-section">المسارات</a></li>
+                <li><a href="#how-to-start">كيف تبدا</a></li>
+            </ul>
+        </nav>
+        
+        <!-- زر القائمة للجوال -->
+        <div class="menu-wrapper" id="menuBtn">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    
+    <!-- خلفية معتمة عند فتح القائمة -->
+    <div class="overlay" id="overlay"></div>
+    
+    <!-- القائمة المنبثقة للجوال -->
+    <nav class="mobile-nav" id="mobileNav">
+        <ul>
+            <li><a href="#paths-section">المسارات</a></li>
+            <li><a href="#how-to-start"></a>كيف تبدا</li>
+        </ul>
+    </nav>
+
+    <!-- ===== قسم البطل (Hero) ===== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>طريقك الذكي نحو <span>احتراف الإنجليزية</span></h1>
+            <p>منصة تعليمية رائدة تتبع أفضل المعايير الدولية لتطوير مهاراتك اللغوية بأسلوب شيق وفعال.</p>
+            
+            <div class="hero-btns">
+                <a href="#paths-section" class="btn btn-main">ابدأ رحلتك الآن</a>
+                <a href="#paths-section" class="btn btn-sub">تصفح المسارات</a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <strong>+15,000</strong>
+                    <span>طالب</span>
+                </div>
+                <div class="divider"></div>
+                <div class="stat-item">
+                    <strong>+500</strong>
+                    <span>حصة</span>
+                </div>
+                <div class="divider"></div>
+                <div class="stat-item">
+                    <strong>4.9</strong>
+                    <span>تقييم</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== قسم المسارات ===== -->
+    <section id="paths-section" class="paths-section">
+    <h2 class="section-title">المسارات التعليمية</h2>
+    <div class="paths-grid">
+        <div class="path-card grammar">
+            <div class="icon-box">✍️</div>
+            <h3>قواعد اللغة</h3>
+            <div class="levels-btns">
+                <div class="lvl-btn" onclick="goToPath('grammar', 'beginner')">المستوى المبتدئ <span>←</span></div>
+                <div class="lvl-btn" onclick="goToPath('grammar', 'intermediate')">المستوى المتوسط <span>←</span></div>
+                <div class="lvl-btn" onclick="goToPath('grammar', 'advanced')">المستوى المتقدم <span>←</span></div>
+            </div>
+        </div>
+        
+        <div class="path-card vocab">
+            <div class="icon-box">📚</div>
+            <h3>المفردات اللغوية</h3>
+            <div class="levels-btns">
+                <div class="lvl-btn" onclick="goToPath('vocabulary', 'beginner')">المستوى المبتدئ <span>←</span></div>
+                <div class="lvl-btn" onclick="goToPath('vocabulary', 'intermediate')">المستوى المتوسط <span>←</span></div>
+                <div class="lvl-btn" onclick="goToPath('vocabulary', 'advanced')">المستوى المتقدم <span>←</span></div>
+            </div>
+        </div>
+        
+        <div class="path-card listening">
+            <div class="icon-box">🎧</div>
+            <h3>مهارات الاستماع</h3>
+            <div class="levels-btns">
+                <div class="lvl-btn" onclick="goToPath('listening', 'beginner')">المستوى المبتدئ <span>←</span></div>
+                <div class="lvl-btn" onclick="goToPath('listening', 'intermediate')">المستوى المتوسط <span>←</span></div>
+                <div class="lvl-btn" onclick="goToPath('listening', 'advanced')">المستوى المتقدم <span>←</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ===== قسم كيف تبدأ ===== -->
+    <section id="how-to-start" class="how-to-start">
+        <h2 class="section-title">كيف تبدأ رحلتك؟</h2>
+        <div class="steps-container">
+            <div class="step-card">
+                <div class="step-number">01</div>
+                <div class="step-icon">👤</div>
+                <h3>أنشئ حسابك</h3>
+                <p>سجل بياناتك في ثوانٍ لتتمكن من الوصول إلى كافة المسارات والكتب التعليمية مجاناً.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">02</div>
+                <div class="step-icon">🎯</div>
+                <h3>اختر مسارك</h3>
+                <p>حدد المهارة التي تريد تطويرها، سواء كانت القواعد، المفردات، أو مهارات الاستماع.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">03</div>
+                <div class="step-icon">🚀</div>
+                <h3>انطلق للاحتراف</h3>
+                <p>ابدأ الدروس التفاعلية وتابع تقدمك يومياً حتى تصل لمستوى الإتقان الذي تطمح إليه.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="latest-articles" style="padding: 60px 20px; background: #fff;">
+    <div class="container">
+        <h2 style="text-align: center; color: var(--primary); margin-bottom: 40px;">احدث المقالات</h2>
+        <div id="articles-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px;">
+            </div>
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="articles.html" class="btn btn-sub">عرض كل المقالات <i class="fas fa-arrow-left"></i></a>
+        </div>
+    </div>
+</section>
+
+    <!-- ===== الفوتر ===== -->
+    <footer class="more-style-footer">
+        <div class="footer-inner">
+            <div class="footer-section">
+                <div class="section-header">
+                    <h4>من نحن</h4>
+                </div>
+                <p>English Hub هي مؤسسة تعليمية تهدف إلى تقديم أفضل الخدمات التعليمية والتدريبية في اللغة الإنجليزية، تعمل على توفير بيئة تعليمية متطورة تساعد على تحقيق الأهداف الشخصية والمهنية مع التركيز على تقديم دعم مستمر وخدمات متكاملة لاحتياجاتك..</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>تواصل معنا</h4>
+                <p>إذا كان لديك أي استفسارات أو تحتاج إلى دعم، يُرجى التواصل معنا عبر:</p>
+                <ul class="contact-list">
+<a href="mailto:easy.english.hub.1@gmail.com?subject=استفسار من موقع English Hub" class="footer-link">
+    easy.english.hub.1@gmail.com
+</a>
+                    <li><a href="tel:+201016987179">+20 101 698 7179</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>وسائل التواصل الاجتماعي</h4>
+                <div class="social-icons">
+                    <a href="#" target="_blank" class="social-icon facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-icon instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-icon tiktok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-credits">
+            <p>تم التصميم والتطوير بواسطة English Hub</p>
+            <div class="bottom-links">
+                <a href="privacy.html">سياسة الخصوصية</a>
+                <span>•</span>
+                <a href="terms.html">الشروط والأحكام</a>
+            </div>
+        </div>
+        
+        <a href="https://t.me/english_hub_help?text=محتاج%20مساعدة%20لو%20سمحت" class="telegram-float" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
+        </a>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
