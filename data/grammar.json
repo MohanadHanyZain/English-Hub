@@ -2,7 +2,7 @@
   {
     "id": "g1",
     "level": "beginner",
-    "title": "زمن المضارع البسيط (Present Simple)",
+    "title": "زمن  البسيط (Present Simple)",
     "description": "تعلم كيف تتحدث عن روتينك اليومي والحقائق الثابتة.",
     "content": "<h2>عنوان الدرس</h2> <div class='video-box'><iframe src='https://www.youtube.com/embed/tgbNymZ7vqY' allowfullscreen></iframe></div>",
     "quizzes": [
@@ -31,3 +31,4 @@
     }
   }
 ]
+
