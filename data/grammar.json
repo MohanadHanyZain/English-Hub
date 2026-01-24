@@ -5,7 +5,7 @@
   "category": "Grammar",
   "level": "Beginner",
   "content": "<h3>ما هو زمن المضارع البسيط؟</h3><p>بنستخدم الزمن ده عشان نتكلم عن <b>الحقائق الثابتة</b> (زي إن الشمس بتطلع من الشرق) أو <b>العادات اليومية</b> (حاجات بتعملها كل يوم).</p><h4>تكوين الجملة:</h4><ul><li>مع الضمائر (I, You, We, They): الفعل بيفضل زي ما هو <i>(مثال: I play)</i>.</li><li>مع الضمائر (He, She, It): لازم نضيف حرف <b>s</b> للفعل <i>(مثال: He plays)</i>.</li></ul><div class='note' style='background: #f0f0f0; padding: 10px; border-right: 5px solid #007bff;'><b>ملحوظة:</b> عند النفي بنستخدم don't مع الجمع، و doesn't مع المفرد (وبنرجع الفعل لأصله).</div>",
-  "quiz": [
+  "quizzes": [
     {
       "question": "Sara ____ milk every morning.",
       "options": ["drink", "drinks", "drinking", "drank"],
