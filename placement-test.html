@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Test | English Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <style>
+        :root {
+            --primary: #c5a059; /* لون موقعك الذهبي */
+            --secondary: #2c3e50;
+            --bg: #fdfbf7; /* خلفية موقعك */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        #quiz-container {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.05);
+            max-width: 650px;
+            width: 100%;
+            border-top: 6px solid var(--primary);
+        }
+
+        .progress-container {
+            background: #eee;
+            height: 8px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        #progress-fill {
+            height: 100%;
+            background: var(--primary);
+            width: 0%;
+            transition: 0.4s;
+        }
+
+        .q-text {
+            font-size: 20px;
+            font-weight: bold;
+            color: var(--secondary);
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .options-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .option-item {
+            background: #fff;
+            border: 2px solid #eee;
+            margin: 12px 0;
+            padding: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+        }
+
+        .option-item:hover {
+            border-color: var(--primary);
+            background: #fdf6e9;
+        }
+
+        .option-item.selected {
+            border-color: var(--primary);
+            background: #fdf6e9;
+            font-weight: bold;
+        }
+
+        .btn-next {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .btn-next:hover { background: #34495e; }
+
+        #result-box {
+            display: none;
+            text-align: center;
+        }
+
+        .level-card {
+            background: #fdfbf7;
+            border-right: 6px solid var(--primary);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .level-title {
+            font-size: 35px;
+            color: var(--primary);
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div id="quiz-container">
+    <div id="quiz-screen">
+        <h2 style="text-align: center; color: var(--secondary);">إختبار تحديد المستوى 📝</h2>
+        <div class="progress-container"><div id="progress-fill"></div></div>
+        <p id="q-counter" style="text-align: center; color: #666;">سؤال 1 من 20</p>
+        
+        <div id="q-text" class="q-text"></div>
+        <div id="options-area" class="options-list"></div>
+        
+        <button class="btn-next" onclick="handleNext()">السؤال التالي <i class="fas fa-arrow-left"></i></button>
+    </div>
+
+    <div id="result-box">
+        <i class="fas fa-medal" style="font-size: 50px; color: var(--primary);"></i>
+        <h3>تم إنهاء الإختبار!</h3>
+        <div class="level-card">
+            <p>مستواك التقريبي هو:</p>
+            <span class="level-title" id="levelBadge">--</span>
+        </div>
+        <p id="feedbackText"></p>
+        <button class="btn-next" onclick="location.reload()">إعادة الإختبار</button>
+    </div>
+</div>
+
+<script>
+    const questions = [
+        // A1 Level
+        { q: "Hello, what ________ your name?", o: ["is", "am", "are", "be"], a: "is" },
+        { q: "I ________ a student at this school.", o: ["is", "am", "are", "be"], a: "am" },
+        { q: "Where ________ you from?", o: ["is", "am", "are", "be"], a: "are" },
+        { q: "She ________ two brothers.", o: ["have", "has", "is", "having"], a: "has" },
+        { q: "I ________ like coffee.", o: ["no", "not", "don't", "doesn't"], a: "don't" },
+        { q: "________ you speak English?", o: ["Do", "Does", "Are", "Is"], a: "Do" },
+        { q: "My father ________ in a bank.", o: ["work", "works", "working", "is work"], a: "works" },
+        { q: "There ________ some milk in the fridge.", o: ["is", "are", "am", "be"], a: "is" },
+        { q: "Look! It ________ now.", o: ["rain", "rains", "is raining", "rained"], a: "is raining" },
+        { q: "I saw ________ elephant at the zoo.", o: ["a", "an", "the", "no article"], a: "an" },
+        // A2 Level
+        { q: "Yesterday, I ________ to the cinema.", o: ["go", "goes", "went", "gone"], a: "went" },
+        { q: "Have you ________ been to London?", o: ["never", "ever", "yet", "already"], a: "ever" },
+        { q: "This book is ________ than the one I read last week.", o: ["good", "better", "best", "gooder"], a: "better" },
+        { q: "He was watching TV when the phone ________.", o: ["ring", "rings", "rang", "rung"], a: "rang" },
+        { q: "If it rains tomorrow, we ________ at home.", o: ["stay", "will stay", "stayed", "would stay"], a: "will stay" },
+        { q: "I haven't finished my homework ________.", o: ["already", "yet", "since", "for"], a: "yet" },
+        { q: "You ________ smoke here. It's forbidden.", o: ["mustn't", "don't have to", "couldn't", "might not"], a: "mustn't" },
+        { q: "She is the woman ________ lives next door.", o: ["which", "whose", "who", "whom"], a: "who" },
+        { q: "We ________ football when it started to rain.", o: ["played", "were playing", "have played", "are playing"], a: "were playing" },
+        { q: "________ you ever eaten sushi?", o: ["Did", "Do", "Have", "Has"], a: "Have" }
+    ];
+
+    let current = 0;
+    let score = 0;
+    let selected = null;
+
+    function render() {
+        const qData = questions[current];
+        document.getElementById('q-text').innerText = `سؤال ${current + 1}: ${qData.q}`;
+        document.getElementById('q-counter').innerText = `سؤال ${current + 1} من ${questions.length}`;
+        const area = document.getElementById('options-area');
+        area.innerHTML = qData.o.map(opt => `<div class="option-item" onclick="select(this, '${opt}')">${opt}</div>`).join('');
+        document.getElementById('progress-fill').style.width = `${(current / questions.length) * 100}%`;
+    }
+
+    function select(el, val) {
+        document.querySelectorAll('.option-item').forEach(li => li.classList.remove('selected'));
+        el.classList.add('selected');
+        selected = val;
+    }
+
+    function handleNext() {
+        if (!selected) return alert("اختر إجابة!");
+        if (selected === questions[current].a) score++;
+        current++;
+        selected = null;
+        if (current < questions.length) render(); else finish();
+    }
+
+    function finish() {
+        document.getElementById('quiz-screen').style.display = 'none';
+        document.getElementById('result-box').style.display = 'block';
+        let lv = ""; let ds = "";
+        if (score <= 7) { lv = "A1 - مبتدئ"; ds = "تحتاج للتركيز على أساسيات القواعد والكلمات."; }
+        else if (score <= 14) { lv = "A2 - فوق المبتدئ"; ds = "لديك معرفة جيدة، استمر في الممارسة."; }
+        else { 
+            lv = "B1 - متوسط"; ds = "أداء ممتاز! مستواك يؤهلك لفهم جمل معقدة.";
+            confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 } });
+        }
+        document.getElementById('levelBadge').innerText = lv;
+        document.getElementById('feedbackText').innerText = ds;
+    }
+    render();
+</script>
+</body>
+</html>

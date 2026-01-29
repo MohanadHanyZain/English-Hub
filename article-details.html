@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفاصيل المقال - English Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .article-hero { height: 400px; position: relative; overflow: hidden; border-radius: 0 0 50px 50px; }
+        .article-hero img { width: 100%; height: 100%; object-fit: cover; }
+        .article-content { max-width: 800px; margin: -50px auto 50px; background: white; padding: 40px; border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); position: relative; z-index: 10; }
+        .article-meta { color: var(--secondary); font-weight: bold; margin-bottom: 20px; display: block; }
+        .article-body { font-size: 1.2rem; line-height: 1.8; color: #444; }
+        .article-body h2 { color: var(--primary); margin: 30px 0 15px; }
+        .article-header {
+    max-width: 900px;
+    margin: 120px auto 40px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.article-main-img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 40px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+}
+
+.article-text-content {
+    max-width: 800px;
+    margin: 50px auto;
+    font-size: 1.25rem;
+    line-height: 2;
+    color: #333;
+    padding: 0 25px;
+}
+
+.article-text-content h2 {
+    color: var(--primary);
+    border-right: 5px solid var(--secondary);
+    padding-right: 15px;
+    margin: 40px 0 20px;
+}
+
+/* إضافة اقتباس شيك داخل المقال */
+blockquote {
+    background: #fdfbf7;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px 0;
+    font-style: italic;
+    border-right: 8px solid var(--secondary);
+    color: var(--primary);
+}
+    </style>
+</head>
+<body>
+    <div id="article-page">
+        <div class="article-hero">
+            <img id="art-image" src="" alt="">
+        </div>
+        <article class="article-content">
+            <span class="article-meta" id="art-date"></span>
+            <h1 id="art-title" style="color: var(--primary); margin-bottom: 30px;"></h1>
+            <div id="art-body" class="article-body">
+                </div>
+            
+            <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+            <a href="index.html" class="btn btn-sub">العودة للرئيسية</a>
+        </article>
+    </div>
+
+    <script src="js/article-details.js"></script>
+</body>
+</html>

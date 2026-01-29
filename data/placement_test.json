@@ -1,0 +1,72 @@
+[
+  {
+    "id": "q1",
+    "level": "A1",
+    "question": "Hello, what ________ your name?",
+    "options": ["is", "am", "are", "be"],
+    "answer": "is"
+  },
+  {
+    "id": "q2",
+    "level": "A1",
+    "question": "I ________ a student at this school.",
+    "options": ["is", "am", "are", "be"],
+    "answer": "am"
+  },
+  {
+    "id": "q3",
+    "level": "A1",
+    "question": "Where ________ you from?",
+    "options": ["is", "am", "are", "be"],
+    "answer": "are"
+  },
+  {
+    "id": "q4",
+    "level": "A1",
+    "question": "She ________ two brothers.",
+    "options": ["have", "has", "is", "having"],
+    "answer": "has"
+  },
+  {
+    "id": "q5",
+    "level": "A1",
+    "question": "I ________ like coffee.",
+    "options": ["no", "not", "don't", "doesn't"],
+    "answer": "don't"
+  },
+  {
+    "id": "q6",
+    "level": "A2",
+    "question": "Yesterday, I ________ to the cinema.",
+    "options": ["go", "goes", "went", "gone"],
+    "answer": "went"
+  },
+  {
+    "id": "q7",
+    "level": "A2",
+    "question": "Have you ________ been to London?",
+    "options": ["never", "ever", "yet", "already"],
+    "answer": "ever"
+  },
+  {
+    "id": "q8",
+    "level": "A2",
+    "question": "This book is ________ than the one I read last week.",
+    "options": ["good", "better", "best", "gooder"],
+    "answer": "better"
+  },
+  {
+    "id": "q9",
+    "level": "A2",
+    "question": "He was watching TV when the phone ________.",
+    "options": ["ring", "rings", "rang", "rung"],
+    "answer": "rang"
+  },
+  {
+    "id": "q10",
+    "level": "A2",
+    "question": "If it rains tomorrow, we ________ at home.",
+    "options": ["stay", "will stay", "stayed", "would stay"],
+    "answer": "will stay"
+  }
+]

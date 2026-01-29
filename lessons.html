@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدروس - English Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .lessons-header { background: var(--primary); color: white; padding: 120px 5% 60px; text-align: center; }
+        .lessons-header h1 span { color: var(--secondary); }
+        .lessons-container { padding: 50px 5%; max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .lesson-item { background: white; border: 1px solid var(--secondary); padding: 25px; border-radius: 20px; transition: 0.3s; text-decoration: none; color: inherit; display: flex; justify-content: space-between; align-items: center; }
+        .lesson-item:hover { transform: translateY(-5px); background: var(--light-bg); }
+        .play-icon { width: 40px; height: 40px; background: var(--secondary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">English Hub</a>
+        <a href="index.html" style="color:var(--primary); font-weight:bold; text-decoration:none;">العودة للرئيسية</a>
+    </header>
+
+    <div class="lessons-header">
+        <h1 id="pathTitle">جاري التحميل...</h1>
+        <!-- <p id="levelSubtitle">يرجى الانتظار</p> -->
+    </div>
+
+    <div class="lessons-container" id="lessonsList">
+        </div>
+
+    <script src="js/lessons.js"></script>
+</body>
+</html>

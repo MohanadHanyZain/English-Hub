@@ -1,0 +1,382 @@
+[
+  {
+    "id": "g1",
+    "level": "beginner",
+    "title": "Lesson 1 ( verb to be )",
+    "description": "الدرس (1): فعل الكينونة (Verb to Be): في هذا الدرس، ستتعلم كيف تبني أول جملة صحيحة في اللغة الإنجليزية.",
+    "content": "<h3>الدرس (1): فعل الكينونة (Verb to Be):</h3><p>في هذا الدرس، ستتعلم كيف تبني أول جملة صحيحة في اللغة الإنجليزية. هذا الفعل هو 'الملك' الشخصي لك.</p><h4>أولاً: متى نستخدم هذا الفعل؟</h4><ul><li>من أنا؟ (الهوية/الاسم): I am Ahmed.</li><li>كيف حالي؟ (الوصف): I am happy.</li><li>ما هي وظيفتي؟ (المهنة): He is a doctor.</li><li>أين أنا؟ (المكان): They are at home.</li></ul><h4>ثانياً: خريطة القاعدة</h4><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'> <tr style='background-color: #f2f2f2;'> <th>الفاعل</th> <th>فعل الكينونة</th> <th>الاختصار</th> <th>المثال</th> </tr> <tr> <td>I</td> <td>am</td> <td>I'm</td> <td>I'm a student.</td> </tr> <tr> <td>He / She / It</td> <td>is</td> <td>He's / She's / It's</td> <td>She is smart.</td> </tr> <tr> <td>You / We / They</td> <td>are</td> <td>You're / We're / They're</td> <td>They are brothers.</td> </tr> </table><h4>ثالثاً: النفي.. كيف تقول 'لا'؟</h4><p>نضع كلمة <b>not</b> بعد الفعل مباشرة: <i>I am not a teacher.</i></p><h4>رابعاً: تكوين السؤال (حركة المقص)</h4><p>للسؤال، نبدأ بـ (Am/Is/Are) قبل الفاعل: <i>Are you happy?</i></p>",
+    "quizzes": [
+      { "question": "1. Sarah ________ a very kind person.", "options": ["am", "is", "are"], "answer": "is" },
+      { "question": "2. I ________ ready for the exam today.", "options": ["'m", "'s", "'re"], "answer": "'m" },
+      { "question": "3. The keys ________ on the table.", "options": ["am", "is", "are"], "answer": "are" },
+      { "question": "4. ________ you tired after work?", "options": ["Am", "Is", "Are"], "answer": "Are" },
+      { "question": "5. It ________ a sunny day; it is raining!", "options": ["is not", "am not", "are not"], "answer": "is not" },
+      { "question": "6. My brother and I ________ in the same school.", "options": ["am", "is", "are"], "answer": "are" },
+      { "question": "7. ________ she your new English teacher?", "options": ["Am", "Is", "Are"], "answer": "Is" },
+      { "question": "8. They ________ from France; they are from Italy.", "options": ["isn't", "aren't", "am not"], "answer": "aren't" },
+      { "question": "9. Look! The cat ________ on the roof.", "options": ["am", "is", "are"], "answer": "is" },
+      { "question": "10. 'Are they your friends?' - 'Yes, they ________.'", "options": ["am", "is", "are"], "answer": "are" }
+    ]
+  },
+  {
+    "id": "g2",
+    "level": "beginner",
+    "title": "Lesson 2 (Nouns & Articles)",
+    "description": "في هذا الدرس سنتعلم كيف نستخدم الأدوات (A / An) وكيف نحول الاسم من مفرد إلى جمع.",
+    "content": "<h3>الدرس الثاني: الأسماء وأدوات النكرة (Nouns & Articles)</h3><p>بعد أن تعلمت كيف تقول 'أنا أكون'، حان الوقت لتعرف 'ماذا تكون الأشياء؟'.</p><h4>أولاً: أدوات النكرة (A / An)</h4><ul><li><b>نستخدم an:</b> إذا بدأت الكلمة بصوت متحرك (A, E, I, O, U).</li><li><b>نستخدم a:</b> مع باقي الحروف الساكنة.</li></ul><h4>ثانياً: جمع الأسماء (Plural Nouns)</h4><ol><li>القاعدة العامة: إضافة <b>s</b> (cats).</li><li>النهايات (ch, sh, s, x, z): نضيف <b>es</b> (buses).</li><li>قاعدة الـ (y): تحول لـ <b>ies</b> إذا قبلها ساكن.</li></ol><h4>ثالثاً: الجموع الشاذة</h4><p>a man -> men | a woman -> women | a child -> children | a person -> people.</p>",
+    "quizzes": [
+      { "question": "1. I have ________ orange in my bag.", "options": ["a", "an", "(No article)"], "answer": "an" },
+      { "question": "2. There are three ________ playing in the park.", "options": ["childs", "childrens", "children"], "answer": "children" },
+      { "question": "3. My father is ________ doctor.", "options": ["a", "an", "(No article)"], "answer": "a" },
+      { "question": "4. I need to wash my ________.", "options": ["tooths", "teeth", "teeths"], "answer": "teeth" },
+      { "question": "5. Look at those ________ over there.", "options": ["bus", "buses", "buss"], "answer": "buses" },
+      { "question": "6. She has two ________.", "options": ["babys", "babies", "baby"], "answer": "babies" },
+      { "question": "7. Is that ________ expensive watch?", "options": ["a", "an", "(No article)"], "answer": "an" },
+      { "question": "8. Five ________ are waiting for the bus.", "options": ["man", "mans", "men"], "answer": "men" },
+      { "question": "9. This is ________ easy lesson.", "options": ["a", "an", "(No article)"], "answer": "an" },
+      { "question": "10. I like ________ cats.", "options": ["a", "an", "(No article)"], "answer": "(No article)" }
+    ]
+  },
+  {
+    "id": "g3",
+    "level": "beginner",
+    "title": "Lesson 3 (Demonstratives)",
+    "description": "في هذا الدرس، ستتعلم كيف تشير إلى الأشياء من حولك بالإنجليزية (This, That, These, Those).",
+    "content": "<h3>الدرس الثالث: أسماء الإشارة (Demonstratives)</h3><p>هل الشيء قريب منك وتلمسه بيدك؟ أم هو بعيد عنك وتشير إليه بإصبعك؟</p><h4>أولاً: خريطة الإشارة (القريب والبعيد)</h4><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'> <tr style='background-color: #f2f2f2;'> <th>المسافة</th> <th>للمفرد (Singular)</th> <th>للجمع (Plural)</th> </tr> <tr> <td>قريب (Near)</td> <td><b>This</b> (هذا / هذه)</td> <td><b>These</b> (هؤلاء)</td> </tr> <tr> <td>بعيد (Far)</td> <td><b>That</b> (ذلك / تلك)</td> <td><b>Those</b> (أولئك)</td> </tr> </table><h4>ثانياً: أمثلة توضيحية</h4><ul><li><b>This is my phone:</b> (هذا هاتفي - وأنا أمسكه الآن).</li><li><b>That is a plane:</b> (تلك طائرة - في السماء بعيداً).</li><li><b>These are my keys:</b> (هذه مفاتيحي - قريبة مني).</li><li><b>Those are stars:</b> (تلك نجوم - بعيدة جداً).</li></ul><h4>ثالثاً: ملاحظات هامة</h4><ul><li>عند السؤال نستخدم 'المقص': <i>Is this your pen?</i></li><li>عند التعريف بنفسك في الهاتف: <i>Hello, this is Ahmed.</i></li><li>عند تقديم شخص لآخر: <i>Dad, this is Ali.</i></li></ul><p><b>النطق:</b> These (ذِييز) طويلة، أما This (ذِس) قصيرة.</p>",
+    "quizzes": [
+      { "question": "1. ________ is my cup here in my hand.", "options": ["This", "That", "Those"], "answer": "This" },
+      { "question": "2. Look at ________ birds high in the sky!", "options": ["This", "These", "Those"], "answer": "Those" },
+      { "question": "3. ________ are my books on this desk.", "options": ["That", "These", "Those"], "answer": "These" },
+      { "question": "4. Is ________ your car over there at the end of the street?", "options": ["this", "that", "these"], "answer": "that" },
+      { "question": "5. ________ shoes I am wearing are very comfortable.", "options": ["This", "These", "That"], "answer": "These" },
+      { "question": "6. ________ is my brother, and the boy over there is my cousin.", "options": ["This", "Those", "These"], "answer": "This" },
+      { "question": "7. Are ________ your sandwiches in that bag?", "options": ["this", "that", "those"], "answer": "those" },
+      { "question": "8. ________ is an amazing movie we are watching now.", "options": ["This", "Those", "These"], "answer": "This" },
+      { "question": "9. ________ people over there are waiting for the bus.", "options": ["That", "These", "Those"], "answer": "Those" },
+      { "question": "10. What is ________ in your pocket?", "options": ["this", "these", "those"], "answer": "this" }
+    ]
+  },
+  {
+    "id": "g4",
+    "level": "beginner",
+    "title": "Lesson 4 (Possession)",
+    "description": "في هذا الدرس، ستتعلم كيف تنسب الأشياء لأصحابها (صفات الملكية و S الملكية).",
+    "content": "<h3>الدرس الرابع: الملكية (Possession)</h3><p>كيف تقول 'هذه سيارتي' وكيف تقول 'هذا بيتُ علي'؟ حان الوقت لتعلم قواعد الملكية.</p><h4>أولاً: صفات الملكية (Possessive Adjectives)</h4><p>تأتي دائماً قبل الشيء الذي نملكه:</p><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'> <tr style='background-color: #f2f2f2;'> <th>ضمير الفاعل</th> <th>صفة الملكية</th> <th>المثال</th> </tr> <tr> <td>I (أنا)</td> <td><b>My</b></td> <td>My book</td> </tr> <tr> <td>He (هو)</td> <td><b>His</b></td> <td>His book</td> </tr> <tr> <td>She (هي)</td> <td><b>Her</b></td> <td>Her book</td> </tr> <tr> <td>It</td> <td><b>Its</b></td> <td>Its food</td> </tr> <tr> <td>You</td> <td><b>Your</b></td> <td>Your book</td> </tr> <tr> <td>We</td> <td><b>Our</b></td> <td>Our book</td> </tr> <tr> <td>They</td> <td><b>Their</b></td> <td>Their book</td> </tr> </table><h4>ثانياً: S الملكية (Possessive 's)</h4><p>نضعها بعد اسم الشخص مباشرة: المالك + 's + الشيء.</p><ul><li>Ahmed's car (سيارة أحمد).</li><li>My father's house (بيت والدي).</li><li><b>ملاحظة للجمع:</b> إذا كان الاسم ينتهي بـ s نضع فاصلة فقط: The students' books.</li></ul><h4>ثالثاً: السؤال عن الملكية (Whose)</h4><p>نستخدم <b>Whose</b> بمعنى (مِلكُ مَن؟):<br><i>Whose pen is this? -> It is Sarah's pen.</i></p><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><b>انتبه:</b><br>1. الفرق بين <b>Its</b> (ملكية) و <b>It's</b> (اختصار It is).<br>2. صفة الملكية تتبع المالك: Ali -> His car / Sara -> Her car.</div>",
+    "quizzes": [
+      { "question": "1. I have a cat. ________ name is Lucy.", "options": ["His", "Her", "Its"], "answer": "Its" },
+      { "question": "2. This is my brother. ________ car is very fast.", "options": ["His", "Her", "Your"], "answer": "His" },
+      { "question": "3. We live in a big house. ________ house is white.", "options": ["Their", "Our", "Your"], "answer": "Our" },
+      { "question": "4. Where is ________ jacket, Ahmed? It's cold outside.", "options": ["my", "his", "your"], "answer": "your" },
+      { "question": "5. This is ________ bag. She bought it yesterday.", "options": ["Mary's", "Marys", "Mary is"], "answer": "Mary's" },
+      { "question": "6. The ________ toys are on the floor. (Children)", "options": ["children's", "childrens'", "children is"], "answer": "children's" },
+      { "question": "7. \"Whose keys are these?\" - \"They are ________.\"", "options": ["my fathers", "my father's", "my father is"], "answer": "my father's" },
+      { "question": "8. Look at my friends! ________ house is very beautiful.", "options": ["Our", "Their", "Your"], "answer": "Their" },
+      { "question": "9. My ________ name is Mr. Khalid.", "options": ["teacher's", "teachers", "teacher is"], "answer": "teacher's" },
+      { "question": "10. I like ________ new hair style, Sarah!", "options": ["his", "her", "your"], "answer": "your" }
+    ]
+  },
+  {
+    "id": "g5",
+    "level": "beginner",
+    "title": "Lesson 5 (Present Simple)",
+    "description": "تعلم زمن 'ملك المحادثة' لتعبر عن عاداتك اليومية وحقائقك الثابتة بأسلوب صحيح.",
+    "content": "<h3>الدرس الخامس: المضارع البسيط (Present Simple)</h3><p>هذا الزمن هو 'ملك المحادثة'. نستخدمه للتحدث عن الأشياء التي تتكرر في حياتنا (عادات) أو حقائق ثابتة.</p><h4>أولاً: متى نستخدمه؟</h4><ul><li><b>العادات:</b> I drink coffee every morning.</li><li><b>الحقائق:</b> The sun rises in the east.</li><li><b>الأشياء الدائمة:</b> I live in Egypt.</li></ul><h4>ثانياً: القاعدة (The 'S' Rule)</h4><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'> <tr style='background-color: #f2f2f2;'> <th>الفريق</th> <th>الضمائر</th> <th>شكل الفعل</th> </tr> <tr> <td>الأقوياء</td> <td>I, You, We, They</td> <td>فعل 'سادة' (Play)</td> </tr> <tr> <td>فريق الـ S</td> <td>He, She, It</td> <td>فعل + S (Plays)</td> </tr> </table><h4>ثالثاً: تكات إملائية (للفريق الثاني فقط)</h4><ul><li><b>نضيف es:</b> إذا انتهى الفعل بـ (ch, sh, ss, x, o) مثل: <i>Go -> Goes</i>.</li><li><b>قاعدة الـ Y:</b> تحذف ونضع <b>ies</b> إذا كان قبلها حرف ساكن (Study -> Studies).</li></ul><h4>رابعاً: النفي (Don't / Doesn't)</h4><p>نستخدم Don't مع الأقوياء، و Doesn't مع فريق الـ S.</p><div style='background: #fff3cd; padding: 15px; border-right: 5px solid #ffecb5;'><b>ملحوظة ذهبية:</b> عند دخول <b>doesn't</b> على الجملة، فإنها تأكل حرف الـ <b>s</b> من الفعل ويرجع الفعل لأصله سادة!<br><i>He doesn't play. (صح) ✅</i></div>",
+    "quizzes": [
+      { "question": "1. My brother ________ in a big hospital.", "options": ["work", "works", "working"], "answer": "works" },
+      { "question": "2. I ________ my teeth twice a day.", "options": ["brush", "brushes", "brushing"], "answer": "brush" },
+      { "question": "3. Sarah ________ like fish; she hates it.", "options": ["don't", "doesn't", "isn't"], "answer": "doesn't" },
+      { "question": "4. They ________ to the gym every Friday.", "options": ["go", "goes", "going"], "answer": "go" },
+      { "question": "5. A cat ________ milk.", "options": ["drink", "drinks", "is drink"], "answer": "drinks" },
+      { "question": "6. We ________ live in London; we live in Manchester.", "options": ["don't", "doesn't", "not"], "answer": "don't" },
+      { "question": "7. He ________ his homework at night.", "options": ["do", "does", "doing"], "answer": "does" },
+      { "question": "8. My sister ________ English very well.", "options": ["study", "studies", "studyies"], "answer": "studies" },
+      { "question": "9. You ________ speak Spanish.", "options": ["doesn't", "don't", "not"], "answer": "don't" },
+      { "question": "10. It ________ a lot in winter.", "options": ["rain", "rains", "raines"], "answer": "rains" }
+    ]
+  },
+  {
+    "id": "g6",
+    "level": "beginner",
+    "title": "Lesson 6 (Present Simple Questions)",
+    "description": "تعلم كيف تطرح الأسئلة في زمن المضارع البسيط باستخدام Do و Does بطريقة احترافية.",
+    "content": "<h3>الدرس السادس: السؤال في المضارع البسيط</h3><p>بعد ما عرفنا إزاي نقول جملة وننفيها، لازم نتعلم إزاي نسأل. بنستخدم نفس 'المساعدين': <b>Do</b> و <b>Does</b>.</p><h4>أولاً: أسئلة (نعم أو لا) - Yes/No Questions</h4><p>نضع المساعد في أول الجملة بمعنى 'هل':</p><ul><li><b>مع (I, You, We, They):</b> نستخدم <b>Do</b>.<br><i>Do you speak English? -> Yes, I do.</i></li><li><b>مع (He, She, It):</b> نستخدم <b>Does</b>.<br><i>Does she like pizza? -> No, she doesn't.</i></li></ul><div style='background: #fff3cd; padding: 10px; border-right: 5px solid #ffecb5;'><b>تنبيه:</b> عند استخدام <b>Does</b>، نحذف حرف الـ <b>s</b> من الفعل فوراً!</div><h4>ثانياً: الأسئلة بأدوات الاستفهام (Wh- Questions)</h4><p>نضع الأداة (What, Where, When) في البداية، ثم المساعد:</p><ul><li>Where <b>do</b> you live? (أين تعيش؟)</li><li>What <b>does</b> he study? (ماذا يدرس؟)</li></ul><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 20px; margin: 20px 0; border-radius: 10px;'><h4><i class='fas fa-lightbulb'></i> تكة المحترفين:</h4><p>أكاديمياً، لا يصح أن تسأل بدون مساعد. لا تقل <i>'You play?'</i> بل قل <b>'Do you play?'</b>.</p></div>",
+    "quizzes": [
+      { "question": "1. ________ you live in Cairo?", "options": ["Do", "Does", "Are"], "answer": "Do" },
+      { "question": "2. ________ your father work in a bank?", "options": ["Do", "Does", "Is"], "answer": "Does" },
+      { "question": "3. What ________ they want to eat?", "options": ["do", "does", "doing"], "answer": "do" },
+      { "question": "4. Does Ahmed ________ his room every day?", "options": ["clean", "cleans", "cleaning"], "answer": "clean" },
+      { "question": "5. ________ she play the piano?", "options": ["Do", "Is", "Does"], "answer": "Does" },
+      { "question": "6. Where ________ you go on weekends?", "options": ["do", "does", "are"], "answer": "do" },
+      { "question": "7. Does it ________ a lot in summer?", "options": ["rain", "rains", "raining"], "answer": "rain" },
+      { "question": "8. ________ we have any milk in the fridge?", "options": ["Do", "Does", "Are"], "answer": "Do" },
+      { "question": "9. Why ________ she cry every night?", "options": ["do", "does", "is"], "answer": "does" },
+      { "question": "10. Do your friends ________ football?", "options": ["play", "plays", "playing"], "answer": "play" }
+    ]
+  },
+  {
+    "id": "g7",
+    "level": "beginner",
+    "title": "Lesson 7 (Adverbs of Frequency)",
+    "description": "تعلم كيف تعبر عن عدد مرات تكرار أفعالك (دائماً، أحياناً، أبداً) وأين تضع هذه الكلمات في الجملة.",
+    "content": "<h3>الدرس السابع: ظروف التكرار (Adverbs of Frequency)</h3><p>في هذا الدرس، سنتعلم الكلمات التي تخبرنا 'كم مرة' نفعل الشيء. هل تفعله كل يوم؟ أم نادراً؟</p><h4>أولاً: سلم التكرار (من 100% إلى 0%)</h4><ul><li><b>Always</b> (دائماً) - 100%</li><li><b>Usually</b> (عادةً) - 90%</li><li><b>Often</b> (غالباً) - 70%</li><li><b>Sometimes</b> (أحياناً) - 50%</li><li><b>Hardly ever</b> (نادراً جداً) - 10%</li><li><b>Never</b> (أبداً) - 0%</li></ul><h4>ثانياً: مكان الكلمة في الجملة (قاعدة ذهبية)</h4><ol><li><b>مع الأفعال العادية:</b> تأتي الكلمة <b>قبل</b> الفعل.<br><i>I <b>always</b> drink coffee.</i></li><li><b>مع فعل الكينونة (am, is, are):</b> تأتي الكلمة <b>بعد</b> الفعل.<br><i>He is <b>always</b> happy.</i></li></ol><h4>ثالثاً: السؤال عن التكرار (How often)</h4><p>نستخدمها لسؤال الشخص 'كم مرة تفعل كذا؟':<br><i>How often do you go to the gym? -> I <b>sometimes</b> go.</i></p><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><h4><i class='fas fa-exclamation-triangle'></i> تكة المحترفين:</h4><p>كلمة <b>Never</b> هي نفي قوي، فلا تستخدم معها don't أو doesn't.<br>صح: <i>I never smoke.</i> ✅</p></div>",
+    "quizzes": [
+      { "question": "1. I ________ eat breakfast at 7 AM. (100%)", "options": ["usually", "always", "sometimes"], "answer": "always" },
+      { "question": "2. Sarah is ________ for her classes.", "options": ["late always", "always late", "always is late"], "answer": "always late" },
+      { "question": "3. We ________ go to the cinema on weekdays.", "options": ["never", "ever never", "don't never"], "answer": "never" },
+      { "question": "4. How ________ do you visit your grandparents?", "options": ["many", "often", "much"], "answer": "often" },
+      { "question": "5. He ________ his homework in the afternoon.", "options": ["usually does", "does usually", "usually do"], "answer": "usually does" },
+      { "question": "6. They are ________ very helpful.", "options": ["often", "sometimes are", "often is"], "answer": "often" },
+      { "question": "7. It ________ rains in the desert. (10%)", "options": ["always", "usually", "hardly ever"], "answer": "hardly ever" },
+      { "question": "8. She ________ drinks milk. She hates it!", "options": ["always", "never", "often"], "answer": "never" },
+      { "question": "9. You ________ forget your keys!", "options": ["always", "are always", "always are"], "answer": "are always" },
+      { "question": "10. My cat ________ sleeps on my bed.", "options": ["sometimes", "is sometimes", "sometimes is"], "answer": "sometimes" }
+    ]
+  },
+  {
+    "id": "g8",
+    "level": "beginner",
+    "title": "Lesson 8 (Prepositions of Time: In, On, At)",
+    "description": "تعلم كيف تستخدم حروف الجر (In, On, At) مع الوقت من خلال قاعدة المثلث المقلوب.",
+    "content": "<h3>الدرس الثامن: حروف جر الوقت (In, On, At)</h3><p>عشان تحفظهم بسهولة، تخيلهم على شكل <b>'مثلث مقلوب'</b>؛ يبدأ من العام والكبير وينتهي عند المحدد والدقيق.</p><h4>أولاً: In (للأوقات الكبيرة والعامة) 🌍</h4><ul><li><b>السنوات:</b> In 2025</li><li><b>الشهور:</b> In March</li><li><b>الفصول:</b> In summer</li><li><b>فترات اليوم:</b> In the morning / afternoon.</li></ul><h4>ثانياً: On (للأيام والتواريخ) 📅</h4><p>نستخدمه عندما نحدد 'يوماً' معيناً:</p><ul><li><b>أيام الأسبوع:</b> On Monday, On Friday.</li><li><b>التواريخ الكاملة:</b> On May 5th.</li><li><b>أيام خاصة:</b> On my birthday.</li></ul><h4>ثالثاً: At (للوقت المحدد والدقيق) 📍</h4><ul><li><b>الساعات:</b> At 7 o'clock, At 10:30 PM.</li><li><b>الليل:</b> At night (استثناء هام).</li><li><b>الوجبات:</b> At lunchtime, At dinner.</li></ul><div style='background: #fff3cd; padding: 15px; border-right: 5px solid #ffecb5; margin-top: 10px;'><h4><i class='fas fa-exclamation-circle'></i> قاعدة الـ No Preposition:</h4><p>إذا وجدت كلمات مثل (Next, Last, Every, This)، لا نضع حرف جر!<br>صح: <i>I will see you <b>next</b> Monday.</i> ✅</p></div>",
+    "quizzes": [
+      { "question": "1. My birthday is ________ October.", "options": ["in", "on", "at"], "answer": "in" },
+      { "question": "2. I usually wake up ________ 6:00 AM.", "options": ["in", "on", "at"], "answer": "at" },
+      { "question": "3. We go to the beach ________ summer.", "options": ["in", "on", "at"], "answer": "in" },
+      { "question": "4. I have a football match ________ Saturday.", "options": ["in", "on", "at"], "answer": "on" },
+      { "question": "5. The stars shine ________ night.", "options": ["in", "on", "at"], "answer": "at" },
+      { "question": "6. The meeting is ________ March 15th.", "options": ["in", "on", "at"], "answer": "on" },
+      { "question": "7. I will finish my work ________ the afternoon.", "options": ["in", "on", "at"], "answer": "in" },
+      { "question": "8. She was born ________ 1998.", "options": ["in", "on", "at"], "answer": "in" },
+      { "question": "9. Let's meet ________ lunchtime.", "options": ["in", "on", "at"], "answer": "at" },
+      { "question": "10. I visit my family ________ every weekend.", "options": ["on", "at", "(No preposition)"], "answer": "(No preposition)" }
+    ]
+  },
+  {
+    "id": "g9",
+    "level": "beginner",
+    "title": "Lesson 9 (Adjectives)",
+    "description": "تعلم كيف تصف الأشياء من حولك ببراعة، وأين تضع الصفة في الجملة الإنجليزية.",
+    "content": "<h3>الدرس التاسع: الصفات (Adjectives)</h3><p>الصفة هي كلمة نستخدمها لوصف الاسم. في الإنجليزية، الصفة 'مطيعة' جداً لأنها لا تتغير سواء كان الاسم مذكر أو مؤنث، مفرد أو جمع!</p><h4>أولاً: مكان الصفة (السر الأهم) 📍</h4><p>على عكس اللغة العربية، الصفة في الإنجليزية تسبق الموصوف أو تأتي بعد فعل الكينونة:</p><ul><li><b>قبل الاسم مباشرة:</b> A <b>fast</b> car (سيارة سريعة).</li><li><b>بعد فعل الكينونة:</b> The car <b>is</b> fast.</li></ul><h4>ثانياً: الصفات لا تُجمع! 🚫👥</h4><p>تظل الصفة كما هي حتى لو كان الاسم جمعاً:</p><ul><li>صح: <b>Tall</b> boys ✅</li><li>خطأ: Talls boys ❌</li></ul><h4>ثالثاً: صفات شائعة وأضدادها ↔️</h4><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'> <tr style='background-color: #f2f2f2;'> <th>الصفة</th> <th>عكسها</th> </tr> <tr> <td>Happy (سعيد)</td> <td>Sad (حزين)</td> </tr> <tr> <td>Big (كبير)</td> <td>Small (صغير)</td> </tr> <tr> <td>Expensive (غالي)</td> <td>Cheap (رخيص)</td> </tr> </table><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><h4><i class='fas fa-star'></i> تكة المحترفين:</h4><p>عند استخدام صفتين، نضع 'الرأي' قبل 'الوصف المادي':<br><i>A <b>beautiful big</b> house.</i></p></div>",
+    "quizzes": [
+      { "question": "1. I bought a ________ phone yesterday.", "options": ["new", "news", "newly"], "answer": "new" },
+      { "question": "2. These flowers ________ very beautiful.", "options": ["is", "are", "am"], "answer": "are" },
+      { "question": "3. Sarah is a ________ girl.", "options": ["tall", "talls", "a tall"], "answer": "tall" },
+      { "question": "4. It is an ________ car.", "options": ["expensive", "cheap", "big"], "answer": "expensive" },
+      { "question": "5. The food ________ delicious.", "options": ["are", "look", "is"], "answer": "is" },
+      { "question": "6. I have ________ eyes.", "options": ["blue", "blues", "a blue"], "answer": "blue" },
+      { "question": "7. He lives in a ________ house.", "options": ["small old", "old small", "smalls old"], "answer": "small old" },
+      { "question": "8. 'Is the exam ________?' - 'No, it's easy.'", "options": ["hard", "easy", "good"], "answer": "hard" },
+      { "question": "9. My parents are ________.", "options": ["kind", "kinds", "a kind"], "answer": "kind" },
+      { "question": "10. This is a ________ story.", "options": ["funny", "funnys", "is funny"], "answer": "funny" }
+    ]
+  },
+  {
+    "id": "g10",
+    "level": "beginner",
+    "title": "Lesson 10 (There is / There are)",
+    "description": "تعلم كيف تصف الأماكن وتعبر عن وجود الأشياء باستخدام 'يوجد' للمفرد والجمع.",
+    "content": "<h3>الدرس العاشر: يوجد (There is / There are)</h3><p>هذا الدرس هو مفتاحك لوصف أي مكان. نستخدم صيغتين فقط حسب العدد.</p><h4>أولاً: المفرد والجمع</h4><ul><li><b>There is:</b> للمفرد (يأتي بعدها a/an). <br><i>There is a car in the street.</i></li><li><b>There are:</b> للجمع (يأتي بعدها رقم أو some). <br><i>There are three books on the table.</i></li></ul><h4>ثانياً: النفي (لا يوجد) 🚫</h4><p>نضع not بعد is أو are:</p><ul><li>للمفرد: <b>There isn't</b> a fridge.</li><li>للجمع: <b>There aren't</b> any chairs.</li></ul><h4>ثالثاً: السؤال (هل يوجد؟) ❓</h4><p>نقوم بعمل 'المقص':</p><ul><li><b>Is there</b> a bank near here?</li><li><b>Are there</b> any students?</li></ul><div style='background: #fff3cd; padding: 15px; border-right: 5px solid #ffecb5;'><b>تكة المحترفين:</b><br>مع النفي والسؤال في الجمع، نستخدم كلمة <b>any</b> (أي).</div>",
+    "quizzes": [
+      { "question": "1. ________ a big tree in our garden.", "options": ["There is", "There are", "Is there"], "answer": "There is" },
+      { "question": "2. ________ five pens in my bag.", "options": ["There is", "There are", "There's"], "answer": "There are" },
+      { "question": "3. ________ a hospital in this street?", "options": ["Is there", "Are there", "There is"], "answer": "Is there" },
+      { "question": "4. There ________ any milk in the bottle.", "options": ["isn't", "aren't", "are"], "answer": "isn't" },
+      { "question": "5. ________ many people at the party.", "options": ["There is", "There are", "Is there"], "answer": "There are" },
+      { "question": "6. There ________ a cat under the table.", "options": ["is", "are", "any"], "answer": "is" },
+      { "question": "7. Are there ________ apples in the kitchen?", "options": ["a", "an", "any"], "answer": "any" },
+      { "question": "8. There ________ any cars in the park.", "options": ["isn't", "aren't", "is"], "answer": "aren't" },
+      { "question": "9. ________ a laptop on your desk?", "options": ["Is there", "Are there", "There is"], "answer": "Is there" },
+      { "question": "10. 'Is there a park here?' - 'Yes, ________.'", "options": ["there are", "there is", "is there"], "answer": "there is" }
+    ]
+  },
+  {
+    "id": "g11",
+    "level": "beginner",
+    "title": "Lesson 11 (Countable & Uncountable Nouns)",
+    "description": "تعرف على الفرق بين الأسماء التي تُعد والتي لا تُعد، وكيفية استخدام Some و Any.",
+    "content": "<h3>الدرس الحادي عشر: الأسماء المعدودة وغير المعدودة</h3><p>في الإنجليزية، ينقسم الأسماء إلى نوعين، وهذا يغير طريقة تعاملنا مع الفعل.</p><h4>أولاً: الأسماء المعدودة (Countable)</h4><p>أشياء يمكن عدها ولها مفرد وجمع:</p><ul><li>المفرد: a banana / an orange.</li><li>الجمع: three bananas / some people.</li></ul><h4>ثانياً: الأسماء غير المعدودة (Uncountable)</h4><p>أشياء نراها كـ 'كتلة واحدة' أو 'سائل' ولا يمكن وضع رقم قبلها:</p><ul><li>أمثلة: Water, Rice, Money, Information, Sugar.</li><li><b>القاعدة الذهبية:</b> تعامل دائماً معاملة المفرد (تأخذ <b>Is</b>).</li></ul><h4>ثالثاً: Some و Any</h4><ul><li><b>Some (بعض):</b> للجمل المثبتة. <br><i>I have some milk.</i></li><li><b>Any (أي):</b> للنفي والسؤال. <br><i>I don't have any sugar.</i></li></ul><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><b>تكة المحترفين:</b> كلمة <b>Money</b> (المال) غير معدودة! نقول <i>Money is important</i>.</div>",
+    "quizzes": [
+      { "question": "1. I would like ________ water, please.", "options": ["a", "some", "any"], "answer": "some" },
+      { "question": "2. There aren't ________ oranges in the fridge.", "options": ["a", "some", "any"], "answer": "any" },
+      { "question": "3. Sugar ________ bad for your teeth.", "options": ["is", "are", "am"], "answer": "is" },
+      { "question": "4. Can I have ________ apple?", "options": ["a", "an", "some"], "answer": "an" },
+      { "question": "5. I don't have ________ money right now.", "options": ["some", "any", "many"], "answer": "any" },
+      { "question": "6. How ________ books do you have?", "options": ["much", "some", "many"], "answer": "many" },
+      { "question": "7. There ________ some milk on the floor.", "options": ["is", "are", "any"], "answer": "is" },
+      { "question": "8. She has ________ information about the exam.", "options": ["an", "some", "a"], "answer": "some" },
+      { "question": "9. Do you have ________ brothers or sisters?", "options": ["some", "any", "a"], "answer": "any" },
+      { "question": "10. I need ________ rice for the dinner.", "options": ["a", "an", "some"], "answer": "some" }
+    ]
+  },
+  {
+    "id": "g12",
+    "level": "beginner",
+    "title": "Lesson 12 (How much / How many)",
+    "description": "تعلم كيفية السؤال عن العدد والكمية والسعر باستخدام الأدوات الصحيحة.",
+    "content": "<h3>الدرس الثاني عشر: السؤال عن الكمية (How much / How many)</h3><p>في هذا الدرس، سنتعلم كيف نسأل بـ 'كم'؟</p><h4>أولاً: How many (كم للعدد)</h4><p>للمعدود فقط (الذي له جمع): <br><i>How many students are in the class?</i></p><h4>ثانياً: How much (كم للكمية / كم للثمن)</h4><ul><li><b>للكـمية:</b> How much water do you drink?</li><li><b>للسعر:</b> How much is this shirt?</li></ul><h4>ثالثاً: كلمات الإجابة</h4><ul><li><b>A lot of:</b> كثير (للمعدود وغير المعدود).</li><li><b>Many / Much:</b> كثير (Many للمعدود / Much لغير المعدود).</li><li><b>A few / A little:</b> قليل (A few للمعدود / A little لغير المعدود).</li></ul><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><b>تكة المحترفين:</b> دائماً نسأل عن المال بـ <b>How much money</b> وليس How many!</div>",
+    "quizzes": [
+      { "question": "1. ________ sisters do you have?", "options": ["How much", "How many", "How any"], "answer": "How many" },
+      { "question": "2. ________ is this gold ring?", "options": ["How much", "How many", "How some"], "answer": "How much" },
+      { "question": "3. There is ________ milk in the fridge.", "options": ["a few", "a little", "many"], "answer": "a little" },
+      { "question": "4. How ________ coffee do you drink every day?", "options": ["much", "many", "any"], "answer": "much" },
+      { "question": "5. I have ________ books in my room.", "options": ["a lot of", "a little", "much"], "answer": "a lot of" },
+      { "question": "6. How ________ people are at the party?", "options": ["much", "many", "any"], "answer": "many" },
+      { "question": "7. I have ________ friends, only two or three.", "options": ["a few", "a little", "much"], "answer": "a few" },
+      { "question": "8. How ________ time do we have?", "options": ["many", "much", "any"], "answer": "much" },
+      { "question": "9. ________ are these oranges?", "options": ["How many", "How much", "How any"], "answer": "How much" },
+      { "question": "10. There isn't ________ bread on the table.", "options": ["much", "many", "a few"], "answer": "much" }
+    ]
+  },
+  {
+  "id": "g13",
+  "level": "beginner",
+  "title": "Lesson 13 (Present Continuous)",
+  "description": "المضارع المستمر هو الزمن اللي بيوصف فعل شغال 'دلوقتي' وأنا بتكلم، ومستمر لفترة. تخيل إنك بتصور 'فيديو' للي بيحصل.",
+  "content": "<h3>Lesson 13 (Present Continuous)</h3><p>المضارع المستمر هو الزمن اللي بيوصف فعل شغال 'دلوقتي' وأنا بتكلم، ومستمر لفترة. تخيل إنك بتصور 'فيديو' للي بيحصل.</p><h4>أولاً: تكوين الجملة (القاعدة الثلاثية)</h4><p>عشان تعمل جملة في المضارع المستمر، لازم يكون عندك 3 مكونات (لو وقع واحد الجملة تبوظ):<br><b>[الفاعل] + [am / is / are] + [الفعل + ing]</b></p><ul><li><b>مع (I):</b> نستخدم am.<br>مثال: <i>I am reading now.</i> (أنا أقرأ الآن).</li><li><b>مع (He, She, It):</b> نستخدم is.<br>مثال: <i>She is cooking lunch.</i> (هي تطبخ الغداء).</li><li><b>مع (You, We, They):</b> نستخدم are.<br>مثال: <i>They are playing football.</i> (هم يلعبون كرة القدم).</li></ul><h4>ثانياً: الكلمات الدالة (عشان تعرف الزمن) 🚩</h4><p>لو شوفت الكلمات دي، اعرف إنك لازم تستخدم الـ ing:</p><ul><li>Now (الآن)</li><li>At the moment (في هذه اللحظة)</li><li>Look! (انظر!) - لأن الفعل بيحصل قدامك دلوقتي.</li><li>Listen! (اسمع!) - لأنك بتسمع الصوت شغال دلوقتي.</li></ul><h4>ثالثاً: النفي والسؤال 🚫❓</h4><p><b>النفي:</b> بنحط not بعد فعل الكينونة.<br>مثال: <i>I am not sleeping.</i> (أنا لست نائماً).</p><p><b>السؤال:</b> بنعمل 'المقص' (نبدأ بـ am / is / are).<br>مثال: <i>Are you watching TV?</i> (هل تشاهد التلفاز؟).</p><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><b>💡 تكة المحترفين:</b><br>في أفعال بنسميها (State Verbs) دي 'ممنوع' تاخد ing لأنها بتوصف مشاعر أو ملكية مش حركة، زي:<br>Love, Like, Hate, Want, Know.<br>خطأ: <i>I am wanting a pizza.</i> ❌<br>صح: <i>I want a pizza.</i> ✅</div>",
+  "quizzes": [
+    { "question": "1. Look! The baby ________.", "options": ["a) sleep", "b) is sleeping", "c) sleeps"], "answer": "b) is sleeping" },
+    { "question": "2. I ________ my homework at the moment.", "options": ["a) am doing", "b) doing", "c) is doing"], "answer": "a) am doing" },
+    { "question": "3. What ________ they doing now?", "options": ["a) is", "b) are", "c) do"], "answer": "b) are" },
+    { "question": "4. Listen! Someone ________ the piano.", "options": ["a) plays", "b) is playing", "c) play"], "answer": "b) is playing" },
+    { "question": "5. We ________ watching a movie right now.", "options": ["a) am not", "b) aren't", "c) don't"], "answer": "b) aren't" },
+    { "question": "6. ________ Sarah drinking water?", "options": ["a) Is", "b) Are", "c) Does"], "answer": "a) Is" },
+    { "question": "7. It ________ raining outside today.", "options": ["a) is", "b) are", "c) am"], "answer": "a) is" },
+    { "question": "8. You ________ sitting on my chair!", "options": ["a) is", "b) are", "c) am"], "answer": "b) are" },
+    { "question": "9. My parents ________ working today.", "options": ["a) isn't", "b) aren't", "c) don't"], "answer": "b) aren't" },
+    { "question": "10. Why ________ you laughing?", "options": ["a) is", "b) are", "c) do"], "answer": "b) are" }
+  ]
+},
+  {
+  "id": "g14",
+  "level": "beginner",
+  "title": "Lesson 14 (Can / Can't)",
+  "description": "فعل Can معناه 'يستطيع' أو 'يقدر'. بنستخدمه عشان نتكلم عن المهارات أو الإمكانيات.",
+  "content": "<h3>Lesson 14 (Can / Can't)</h3><p>فعل Can معناه 'يستطيع' أو 'يقدر'. بنستخدمه عشان نتكلم عن المهارات (السباحة، القراءة، العزف) أو الإمكانيات.</p><h4>أولاً: القاعدة الذهبية (The King Rule) 👑</h4><p>فعل Can ملك، لأنه لا يتأثر بالفاعل. سواء كان الفاعل مفرد أو جمع، الفعل بيفضل زي ما هو، والأهم إن الفعل اللي بييجي بعده لازم يكون 'مصدر' (سادة بدون أي إضافات).</p><p><b>القاعدة: [الفاعل] + Can + [الفعل سادة]</b></p><ul><li><i>I can swim.</i></li><li><i>He can speak English.</i> (لاحظ: مقلناش can speaks ❌، الـ s ممنوعة هنا).</li><li><i>They can run fast.</i></li></ul><h4>ثانياً: النفي (عدم القدرة) 🚫</h4><p>لما نكون مش بنقدر نعمل الحاجة، بنستخدم Can't (وهي اختصار لـ cannot).</p><ul><li>مثال: <i>I can't drive a car.</i></li><li>مثال: <i>She can't cook.</i></li></ul><h4>ثالثاً: السؤال (هل تستطيع؟) ❓</h4><p>كل اللي بنعمله إننا بنبدأ بـ Can في أول الجملة.</p><p>السؤال: <i>Can you help me?</i> (هل يمكنك مساعدتي؟)<br>الإجابة: Yes, I can. أو No, I can't.</p><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><b>💡 تكة المحترفين:</b><br>نستخدم Can أيضاً لطلب الإذن (Request) بطريقة ودية:<br><i>Can I use your phone?</i> (ممكن أستخدم تليفونك؟)</div>",
+  "quizzes": [
+    { "question": "1. Birds ________ fly high in the sky.", "options": ["a) can", "b) can't", "c) are can"], "answer": "a) can" },
+    { "question": "2. She ________ speak five languages.", "options": ["a) can", "b) cans", "c) can is"], "answer": "a) can" },
+    { "question": "3. I'm sorry, I ________ help you right now.", "options": ["a) can", "b) can't", "c) am not can"], "answer": "b) can't" },
+    { "question": "4. Can you ________ the guitar?", "options": ["a) play", "b) plays", "c) playing"], "answer": "a) play" },
+    { "question": "5. He ________ swim; he is afraid of water.", "options": ["a) can", "b) can't", "c) doesn't can"], "answer": "b) can't" },
+    { "question": "6. ________ you open the window, please?", "options": ["a) Do", "b) Can", "c) Are"], "answer": "b) Can" },
+    { "question": "7. Cats ________ climb trees easily.", "options": ["a) can", "b) can is", "c) cans"], "answer": "a) can" },
+    { "question": "8. They ________ come to the party tonight.", "options": ["a) can", "b) can to", "c) are can"], "answer": "a) can" },
+    { "question": "9. Can she ________ Italian food?", "options": ["a) cook", "b) cooks", "c) cooking"], "answer": "a) cook" },
+    { "question": "10. A baby ________ walk.", "options": ["a) can", "b) can't", "c) isn't can"], "answer": "b) can't" }
+  ]
+},
+  {
+  "id": "g15",
+  "level": "beginner",
+  "title": "Lesson 15 (Would like)",
+  "description": "استخدام كلمة 'I want' قد يبدو فظاً، البديل السحري والأكثر أدباً هو 'I would like'.",
+  "content": "<h3>Lesson 15 (Would like)</h3><p>في الإنجليزية، استخدام كلمة 'I want' (أنا أريد) قد يبدو فظاً أو غير مهذب في المطاعم أو مع الغرباء. البديل السحري والأكثر أدباً هو 'I would like'.</p><h4>أولاً: المعنى والاستخدام</h4><p>كلمة Would like تعني 'أود' أو 'أرغب'، ونستخدمها في حالتين:</p><p><b>1. لطلب شيء (معدود أو غير معدود):</b><br>القاعدة: [الفاعل] + would like + [الاسم]<br>مثال: <i>I would like a cup of coffee, please.</i> (أود فنجان قهوة من فضلك).<br>الاختصار: I'd like.</p><p><b>2. لطلب فعل شيء:</b><br>القاعدة: [الفاعل] + would like + <b>to</b> + [الفعل سادة]<br>مثال: <i>I would like to pay the bill.</i> (أود أن أدفع الحساب).</p><h4>ثانياً: العرض والسؤال (Offering) ❓</h4><p>عندما تعزم شخصاً على شيء أو تسأله عما يفضله، نستخدم Would you like...؟</p><ul><li>لعرض شيء: <i>Would you like some tea?</i> (هل تود بعض الشاي؟).</li><li>لعرض فعل شيء: <i>Would you like to watch a movie?</i> (هل تود أن تشاهد فيلماً؟).</li></ul><p><b>الإجابة تكون:</b><br>بالإيجاب: Yes, please. أو I'd love to.<br>بالرفض المهذب: No, thank you.</p><h4>ثالثاً: الفرق بين (Like) و (Would like) ⚖️</h4><p>هذه التكة هي التي تميز الطالب الذكي:</p><ul><li><i>I like coffee:</i> تعني أنا أحب القهوة عموماً (حقيقة عني).</li><li><i>I would like coffee:</i> تعني أنا أريد قهوة الآن (طلب).</li></ul><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><b>💡 تكة المحترفين:</b><br>دائماً ذكر طلابك أن كلمة 'Please' في نهاية الجملة مع 'Would like' تجعلهم يتحدثون مثل البريطانيين الأصليين في الرقي.</div>",
+  "quizzes": [
+    { "question": "1. I ________ a glass of water, please.", "options": ["a) like", "b) would like", "c) want to"], "answer": "b) would like" },
+    { "question": "2. Would you like ________ some cake?", "options": ["a) have", "b) to have", "c) having"], "answer": "b) to have" },
+    { "question": "3. I ________ to travel to Japan next year.", "options": ["a) 'd like", "b) like", "c) 'd liking"], "answer": "a) 'd like" },
+    { "question": "4. ________ you like a sandwich?", "options": ["a) Do", "b) Would", "c) Are"], "answer": "b) Would" },
+    { "question": "5. \"Would you like to dance?\" - \"Yes, I ________.\"", "options": ["a) would love to", "b) like", "c) do"], "answer": "a) would love to" },
+    { "question": "6. She ________ a new laptop for her work.", "options": ["a) would like", "b) would likes", "c) likes to"], "answer": "a) would like" },
+    { "question": "7. We would like ________ a table for four, please.", "options": ["a) book", "b) to book", "c) booking"], "answer": "b) to book" },
+    { "question": "8. What ________ you like to drink?", "options": ["a) do", "b) would", "c) are"], "answer": "b) would" },
+    { "question": "9. I ________ pizza, but I ________ a salad now.", "options": ["a) would like / like", "b) like / 'd like", "c) like / like"], "answer": "b) like / 'd like" },
+    { "question": "10. Would they like ________ to the park?", "options": ["a) go", "b) to go", "c) going"], "answer": "b) to go" }
+  ]
+},
+  {
+  "id": "g16",
+  "level": "beginner",
+  "title": "Lesson 16 (Comparative Adjectives)",
+  "description": "عندما نريد المقارنة بين شيئين أو شخصين، نستخدم الصفات ولكن بشكل مختلف قليلاً.",
+  "content": "<h3>Lesson 16 (Comparative Adjectives)</h3><p>عندما نريد المقارنة بين شيئين أو شخصين، نستخدم الصفات ولكن بشكل مختلف قليلاً. في الإنجليزية، تعتمد القاعدة على 'طول الصفة'.</p><h4>أولاً: الصفات القصيرة (Short Adjectives)</h4><p>وهي الصفات المكونة من مقطع واحد (نطقها سريع)، مثل: Fast, Small, Tall.</p><p><b>القاعدة: الصفة + er + than</b></p><ul><li><i>The car is faster than the bike.</i> (السيارة أسرع من الدراجة).</li><li><i>Ahmed is taller than Ali.</i> (أحمد أطول من علي).</li></ul><p>⚠️ <b>ملحوظة إملائية:</b> إذا انتهت الصفة بـ (ساكن-متحرك-ساكن)، نضاعف الحرف الأخير: Big -> Bigger than / Hot -> Hotter than.</p><h4>ثانياً: الصفات الطويلة (Long Adjectives)</h4><p>وهي الصفات التي نطقها طويل، مثل: Beautiful, Expensive, Interesting. بما أنها طويلة، لا نستطيع إضافة er في نهايتها، لذا نضع كلمة قبلها.</p><p><b>القاعدة: more + الصفة + than</b></p><ul><li><i>Gold is more expensive than silver.</i> (الذهب أغلى من الفضة).</li><li><i>This book is more interesting than that one.</i></li></ul><h4>ثالثاً: الصفات الشاذة (Irregular Adjectives) 🚩</h4><p>هناك صفات لا تتبع أي قاعدة ويجب حفظها كما هي:</p><ul><li>Good (جيد) -> Better than (أفضل من)</li><li>Bad (سيئ) -> Worse than (أسوأ من)</li><li>Far (بعيد) -> Farther than (أبعد من)</li></ul><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><b>💡 تكة المحترفين:</b><br>كلمة than (بمعنى 'مِن') تُكتب بالـ a وليس الـ e. الطلاب يخلطون دائماً بينها وبين كلمة then (بمعنى 'ثم').<br>صح: Older than ✅<br>خطأ: Older then ❌</div>",
+  "quizzes": [
+    { "question": "1. A plane is ________ than a train.", "options": ["a) fast", "b) faster", "c) more fast"], "answer": "b) faster" },
+    { "question": "2. English is ________ than Math for me.", "options": ["a) easyer", "b) more easy", "c) easier"], "answer": "c) easier" },
+    { "question": "3. This house is ________ than my old house.", "options": ["a) biger", "b) bigger", "c) more big"], "answer": "b) bigger" },
+    { "question": "4. Health is ________ than money.", "options": ["a) more important", "b) importanter", "c) important than"], "answer": "a) more important" },
+    { "question": "5. My car is ________ than your car.", "options": ["a) gooder", "b) better", "c) more good"], "answer": "b) better" },
+    { "question": "6. I am ________ than my brother.", "options": ["a) more short", "b) shorter", "c) shortest"], "answer": "b) shorter" },
+    { "question": "7. Movies are ________ than books.", "options": ["a) excitinger", "b) more exciting", "c) more excited"], "answer": "b) more exciting" },
+    { "question": "8. Today is ________ than yesterday.", "options": ["a) badder", "b) worse", "c) worst"], "answer": "b) worse" },
+    { "question": "9. This computer is ________ than that one.", "options": ["a) expensive", "b) more expensive", "c) expensiver"], "answer": "b) more expensive" },
+    { "question": "10. Russia is ________ than Egypt.", "options": ["a) cold", "b) colder", "c) more cold"], "answer": "b) colder" }
+  ]
+},
+  {
+  "id": "g17",
+  "level": "beginner",
+  "title": "Lesson 17 (Past Simple - Verb to Be)",
+  "description": "في الدروس الأولى، تعلمنا أن (am, is, are) تعني 'يكون'. اليوم سنتعلم كيف نقول 'كان' أو 'كانوا'.",
+  "content": "<h3>Lesson 17 (Past Simple - Verb to Be)</h3><p>في الدروس الأولى، تعلمنا أن (am, is, are) تعني 'يكون'. اليوم سنتعلم كيف نقول 'كان' أو 'كانوا'. في الماضي، يتحول فعل الكينونة إلى شكلين فقط:</p><h4>أولاً: (Was / Were)</h4><p><b>1. استخدام Was (كان):</b><br>تأتي مع الضمائر المفردة: (I, He, She, It).<br>مثال: <i>I was at home yesterday.</i> (كنت في البيت أمس).<br>مثال: <i>She was happy.</i> (كانت سعيدة).</p><p><b>2. استخدام Were (كانوا / كنتَ):</b><br>تأتي مع ضمائر الجمع والمخاطب: (You, We, They).<br>مثال: <i>They were late.</i> (كانوا متأخرين).<br>مثال: <i>You were very kind.</i> (كنتَ طيباً جداً).</p><h4>ثانياً: النفي (لم يكن) 🚫</h4><p>ببساطة نضع not بعد الفعل، والاختصارات هي الأكثر استخداماً:</p><ul><li>Was not -> Wasn't</li><li>Were not -> Weren't</li></ul><p>مثال: <i>He wasn't at school.</i> (لم يكن في المدرسة).</p><h4>ثالثاً: السؤال (هل كان؟) ❓</h4><p>نبدأ الجملة بـ Was أو Were.</p><p>السؤال: <i>Were you sick yesterday?</i> (هل كنت مريضاً أمس؟)<br>الإجابة: Yes, I was. أو No, I wasn't.</p><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><b>💡 تكة المحترفين:</b><br>الكلمات التي تدلك على أنك يجب أن تستخدم الماضي هي:<br>Yesterday (أمس)<br>Last... (الماضي) مثل: Last week, Last year.<br>Ago (منذ) وتأتي في نهاية الجملة، مثل: Two days ago.</div>",
+  "quizzes": [
+    { "question": "1. I ________ at the cinema last night.", "options": ["a) was", "b) were", "c) am"], "answer": "a) was" },
+    { "question": "2. Where ________ you yesterday afternoon?", "options": ["a) was", "b) were", "c) did"], "answer": "b) were" },
+    { "question": "3. They ________ at work on Sunday.", "options": ["a) wasn't", "b) weren't", "c) isn't"], "answer": "b) weren't" },
+    { "question": "4. My mother ________ a teacher 10 years ago.", "options": ["a) was", "b) were", "c) is"], "answer": "a) was" },
+    { "question": "5. ________ the weather good on your holiday?", "options": ["a) Was", "b) Were", "c) Is"], "answer": "a) Was" },
+    { "question": "6. We ________ very tired after the match.", "options": ["a) was", "b) were", "c) are"], "answer": "b) were" },
+    { "question": "7. It ________ cold yesterday, so I stayed home.", "options": ["a) was", "b) were", "c) wasn't"], "answer": "a) was" },
+    { "question": "8. ________ your friends with you at the party?", "options": ["a) Was", "b) Were", "c) Are"], "answer": "b) Were" },
+    { "question": "9. The exam ________ very difficult, it was easy!", "options": ["a) was", "b) wasn't", "c) weren't"], "answer": "b) wasn't" },
+    { "question": "10. Why ________ he angry this morning?", "options": ["a) was", "b) were", "c) is"], "answer": "a) was" }
+  ]
+},
+  {
+  "id": "g18",
+  "level": "beginner",
+  "title": "Lesson 18 (Past Simple - Verbs)",
+  "description": "الماضي البسيط نستخدمه للتحدث عن فعل بدأ وانتهى تماماً في وقت محدد في الماضي.",
+  "content": "<h3>Lesson 18 (Past Simple - Verbs)</h3><p>الماضي البسيط نستخدمه للتحدث عن فعل بدأ وانتهى تماماً في وقت محدد في الماضي. في الإنجليزية، تنقسم الأفعال في الماضي إلى نوعين:</p><h4>أولاً: الأفعال المنتظمة (Regular Verbs)</h4><p>وهي الأفعال 'المطيعة' التي تنتهي بـ ed.</p><ul><li>Play -> Played</li><li>Watch -> Watched</li><li>Work -> Worked</li><li><b>قاعدة الـ y:</b> إذا انتهى الفعل بـ y قبلها حرف ساكن، نقلبها i ونضع ed. مثل: Study -> Studied.</li></ul><h4>ثانياً: الأفعال الشاذة (Irregular Verbs)</h4><p>وهي أفعال 'متمردة' لا تتبع قاعدة، ويجب حفظ شكلها كما هو.</p><ul><li>Go -> Went (ذهب)</li><li>Eat -> Ate (أكل)</li><li>Sleep -> Slept (نام)</li><li>See -> Saw (رأى)</li><li>Have -> Had (امتلك)</li></ul><h4>ثالثاً: النفي.. المساعد القوي (Did not / Didn't) 🚫</h4><p>في الماضي، المساعد الوحيد لكل الضمائر هو Did.</p><p><b>القاعدة: [الفاعل] + didn't + [الفعل سادة]</b></p><p>⚠️ <b>ملحوظة ذهبية:</b> بمجرد ظهور didn't في الجملة، يعود الفعل لأصله (المصدر) فوراً.<br>مثال: <i>I didn't go to school.</i> (وليس didn't went ❌).</p><h4>رابعاً: السؤال (هل فعلت؟) ❓</h4><p>نبدأ بـ Did في أول الجملة، وأيضاً يعود الفعل لأصله.</p><p>السؤال: <i>Did you watch the match?</i><br>الإجابة: Yes, I did. أو No, I didn't.</p><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><b>💡 تكة المحترفين:</b><br>تذكر الكلمات المفتاحية التي ذكرناها في الدرس السابق (Yesterday, Last, Ago). بمجرد رؤيتها، فكر فوراً في التصريف الثاني للفعل أو استخدام Did.</div>",
+  "quizzes": [
+    { "question": "1. I ________ a movie yesterday night.", "options": ["a) watch", "b) watched", "c) watching"], "answer": "b) watched" },
+    { "question": "2. We ________ to the park last Friday.", "options": ["a) go", "b) goes", "c) went"], "answer": "c) went" },
+    { "question": "3. She ________ her homework two hours ago.", "options": ["a) finished", "b) finish", "c) finishes"], "answer": "a) finished" },
+    { "question": "4. I ________ see you at the party.", "options": ["a) don't", "b) didn't", "c) wasn't"], "answer": "b) didn't" },
+    { "question": "5. Did you ________ your breakfast this morning?", "options": ["a) eat", "b) ate", "c) eating"], "answer": "a) eat" },
+    { "question": "6. My father ________ a new car last month.", "options": ["a) buy", "b) buyed", "c) bought"], "answer": "c) bought" },
+    { "question": "7. They ________ play football yesterday.", "options": ["a) didn't", "b) don't", "c) weren't"], "answer": "a) didn't" },
+    { "question": "8. ________ he call you last night?", "options": ["a) Do", "b) Does", "c) Did"], "answer": "c) Did" },
+    { "question": "9. I ________ my keys this morning.", "options": ["a) lost", "b) lose", "c) losed"], "answer": "a) lost" },
+    { "question": "10. Sarah ________ to the gym yesterday.", "options": ["a) didn't went", "b) didn't go", "c) doesn't go"], "answer": "b) didn't go" }
+  ]
+},
+  {
+  "id": "g19",
+  "level": "beginner",
+  "title": "Lesson 19 (Conjunctions: And, But, Because, So)",
+  "description": "أدوات الربط هي كلمات نستخدمها لدمج جملتين معاً لنجعل الكلام يبدو طبيعياً وأكثر احترافية.",
+  "content": "<h3>Lesson 19 (Conjunctions: And, But, Because, So)</h3><p>أدوات الربط هي كلمات نستخدمها لدمج جملتين معاً لنجعل الكلام يبدو طبيعياً وأكثر احترافية.</p><h4>أولاً: الكلمات الأربعة الأساسية</h4><p><b>1. And (و):</b><br>نستخدمها لإضافة معلومة مشابهة أو تكملة للفكرة.<br>مثال: <i>I like football and I like tennis.</i></p><p><b>2. But (لكن):</b><br>نستخدمها لإظهار التناقض (شيء عكس المتوقع).<br>مثال: <i>I want to go out, but it is raining.</i> (أريد الخروج، لكنها تمطر).</p><p><b>3. Because (بسبب/لأن):</b><br>نستخدمها لإعطاء السبب (السبب يأتي بعدها).<br>مثال: <i>I stayed at home because I was tired.</i> (بقيت في البيت لأنني كنت متعباً).</p><p><b>4. So (لذلك):</b><br>نستخدمها لإظهار النتيجة (النتيجة تأتي بعدها).<br>مثال: <i>I was tired, so I stayed at home.</i> (كنت متعباً، لذلك بقيت في البيت).</p><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><b>💡 تكة المحترفين:</b><br>لاحظ الفرق بين Because و So؛ هما عكس بعضهما تماماً:<br>النتيجة + because + السبب<br>السبب + so + النتيجة</div>",
+  "quizzes": [
+    { "question": "1. I bought a shirt ________ a tie.", "options": ["a) and", "b) but", "c) so"], "answer": "a) and" },
+    { "question": "2. He is very rich, ________ he is not happy.", "options": ["a) and", "b) but", "c) because"], "answer": "b) but" },
+    { "question": "3. I went to the doctor ________ I was sick.", "options": ["a) so", "b) but", "c) because"], "answer": "c) because" },
+    { "question": "4. It was very cold, ________ I wore a heavy coat.", "options": ["a) so", "b) because", "c) but"], "answer": "a) so" },
+    { "question": "5. She studied hard, ________ she failed the exam.", "options": ["a) and", "b) but", "c) so"], "answer": "b) but" },
+    { "question": "6. I am learning English ________ I want a better job.", "options": ["a) so", "b) because", "c) but"], "answer": "b) because" },
+    { "question": "7. Do you want tea ________ coffee?", "options": ["a) and", "b) but", "c) or (أداة خيار)"], "answer": "c) or (أداة خيار)" },
+    { "question": "8. The phone rang, ________ I answered it.", "options": ["a) but", "b) because", "c) so"], "answer": "c) so" },
+    { "question": "9. I can speak Arabic ________ I can't speak French.", "options": ["a) and", "b) but", "c) so"], "answer": "b) but" },
+    { "question": "10. It was my birthday, ________ my friends bought me a gift.", "options": ["a) because", "b) but", "c) so"], "answer": "c) so" }
+  ]
+},
+  {
+  "id": "g20",
+  "level": "beginner",
+  "title": "Lesson 20 (Future Simple - Will)",
+  "description": "عندما نريد التحدث عن أشياء ستحدث غداً، أو قرارات مفاجئة، أو وعود، نستخدم كلمة Will.",
+  "content": "<h3>Lesson 20 (Future Simple - Will)</h3><p>عندما نريد التحدث عن أشياء ستحدث غداً، أو قرارات مفاجئة، أو وعود، نستخدم كلمة Will (بمعنى سـ أو سوف).</p><h4>أولاً: القاعدة (أسهل قاعدة في اللغة)</h4><p>مثلها مثل Can؛ كلمة Will ملكة، لا تتغير مع أي فاعل، ويأتي بعدها دائماً الفعل 'مصدر' (سادة بدون إضافات).</p><p><b>القاعدة: [الفاعل] + Will + [الفعل سادة]</b></p><ul><li><i>I will travel tomorrow.</i> (سأسافر غداً).</li><li><i>They will help us.</i> (سوف يساعدوننا).</li><li><i>It will rain next week.</i> (سوف تمطر الأسبوع القادم).</li><li><b>الاختصار:</b> نختصر Will إلى 'll (مثل: I'll, She'll).</li></ul><h4>ثانياً: النفي (لن أفعل) 🚫</h4><p>نضيف not بعد will لتصبح will not. ولكن الاختصار الأكثر شهرة هو Won't.</p><p>مثال: <i>I won't go to the party.</i> (لن أذهب للحفلة).</p><h4>ثالثاً: السؤال (هل ستفعل؟) ❓</h4><p>نبدأ بكلمة Will في أول الجملة.</p><p>السؤال: <i>Will you marry me?</i> 💍<br>الإجابة: Yes, I will. أو No, I won't.</p><div style='background: #fdfbf7; border-right: 6px solid #c5a059; padding: 15px; margin-top: 10px;'><b>💡 تكة المحترفين (الكلمات الدالة):</b><br>بمجرد أن ترى هذه الكلمات، فأنت تتحدث عن المستقبل:<br>Tomorrow (غداً)<br>Next... (القادم) مثل: Next month, Next year.<br>Soon (قريباً).<br>In the future (في المستقبل).</div>",
+  "quizzes": [
+    { "question": "1. I think it ________ sunny tomorrow.", "options": ["a) will be", "b) will is", "c) will being"], "answer": "a) will be" },
+    { "question": "2. We ________ go to the park if it rains.", "options": ["a) will", "b) won't", "c) aren't"], "answer": "b) won't" },
+    { "question": "3. ________ you help me with my bags?", "options": ["a) Do", "b) Will", "c) Are"], "answer": "b) Will" },
+    { "question": "4. She ________ probably arrive late.", "options": ["a) will", "b) is", "c) does"], "answer": "a) will" },
+    { "question": "5. They ________ play football next Monday.", "options": ["a) will", "b) won't to", "c) will be"], "answer": "a) will" },
+    { "question": "6. I ________ my homework tonight, I promise.", "options": ["a) 'll do", "b) 'll doing", "c) 'll does"], "answer": "a) 'll do" },
+    { "question": "7. \"Will he come?\" - \"No, he ________.\"", "options": ["a) won't", "b) will not to", "c) doesn't"], "answer": "a) won't" },
+    { "question": "8. Wait! I ________ the door for you.", "options": ["a) open", "b) will open", "c) opened"], "answer": "b) will open" },
+    { "question": "9. What ________ you do next summer?", "options": ["a) do", "b) will", "c) are"], "answer": "b) will" },
+    { "question": "10. I'm sure you ________ the exam.", "options": ["a) will pass", "b) will passing", "c) pass"], "answer": "a) will pass" }
+  ]
+}
+]
