@@ -27,7 +27,7 @@ async function loadData(category, level) {
 
         filtered.forEach(lesson => {
             list.innerHTML += `
-                <a href="details.html?id=${lesson.id}&type=${category}" class="lesson-item">
+                <a href="/${category}/${lesson.id}.html" class="lesson-item">
                     <div>
                         <h3 style="color:var(--primary); margin-bottom:5px;">${lesson.title}</h3>
                         <p style="font-size:0.9rem; color:#666;">${lesson.description}</p>
